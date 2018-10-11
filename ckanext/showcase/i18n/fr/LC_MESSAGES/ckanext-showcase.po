@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: ckanext-showcase 1.0.0b1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2015-09-23 14:49+0100\n"
-"PO-Revision-Date: 2018-10-11 15:22+0200\n"
+"PO-Revision-Date: 2018-10-11 16:03+0200\n"
 "Language: fr\n"
 "Language-Team: fr <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
@@ -308,12 +308,12 @@ msgstr "Popularité"
 #: ckanext/showcase/templates/showcase/add_datasets.html:31
 #: ckanext/showcase/templates/showcase/manage_datasets.html:36
 msgid "Datasets available to add to this showcase"
-msgstr "Jeux de données disponibles pour ajouter à Showcase"
+msgstr "Jeux de données disponibles pour ajouter à la réutilisation"
 
 #: ckanext/showcase/templates/showcase/add_datasets.html:48
 #: ckanext/showcase/templates/showcase/manage_datasets.html:51
 msgid "Add to Showcase"
-msgstr "Ajouter à Showcase"
+msgstr "Ajouter à la réutilisation"
 
 #: ckanext/showcase/templates/showcase/add_datasets.html:78
 #: ckanext/showcase/templates/showcase/manage_datasets.html:88
@@ -378,7 +378,7 @@ msgstr "Titre"
 
 #: ckanext/showcase/templates/showcase/new_package_form.html:15
 msgid "eg. A descriptive title"
-msgstr "par exemple un titre descriptif"
+msgstr "Un titre descriptif"
 
 #: ckanext/showcase/templates/showcase/new_package_form.html:24
 msgid "URL"
@@ -386,7 +386,7 @@ msgstr "URL"
 
 #: ckanext/showcase/templates/showcase/new_package_form.html:24
 msgid "eg. my-showcase"
-msgstr "par exemple ma réutilisation"
+msgstr "Ma réutilisation"
 
 #: ckanext/showcase/templates/showcase/new_package_form.html:28
 msgid "Description"
@@ -394,11 +394,11 @@ msgstr "Description"
 
 #: ckanext/showcase/templates/showcase/new_package_form.html:28
 msgid "eg. Some useful notes about the data"
-msgstr "par exemple quelques notes utiles sur les données"
+msgstr "Quelques notes utiles sur les données"
 
 #: ckanext/showcase/templates/showcase/new_package_form.html:33
 msgid "eg. economy, mental health, government"
-msgstr "par exemple économie, santé, gouvernement"
+msgstr "Économie, santé, gouvernement"
 
 #: ckanext/showcase/templates/showcase/new_package_form.html:44
 msgid "External link"
@@ -438,7 +438,7 @@ msgstr "Mettre à jour la réutilisation"
 
 #: ckanext/showcase/templates/showcase/read.html:46
 msgid "Manage"
-msgstr "Gérer"
+msgstr "Éditer"
 
 #: ckanext/showcase/templates/showcase/read.html:53
 msgid "Private"
