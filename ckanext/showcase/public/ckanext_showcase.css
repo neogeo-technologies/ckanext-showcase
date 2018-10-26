@@ -9,8 +9,11 @@
 }
 
 .actions {
-    top: 36px;
-    right: 25px;
+/*    top: 36px;
+    right: 25px;*/
+    right: auto;
+    top: 10px;
+    position: relative;
 }
 
 .ckanext-showcase-edit-wrapper {
