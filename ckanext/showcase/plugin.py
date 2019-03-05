@@ -27,6 +27,10 @@ log = logging.getLogger(__name__)
 
 DATASET_TYPE_NAME = 'showcase'
 
+# Custom Helpers (idgo)
+def get_pkg_showcase_list(pkg_id):
+    pkg_showcase_list = tk.get_action('ckanext_package_showcase_list')({}, {'package_id': pkg_id})
+    return pkg_showcase_list
 
 class ShowcasePlugin(plugins.SingletonPlugin, lib_plugins.DefaultDatasetForm):
     plugins.implements(plugins.IConfigurable)
@@ -96,7 +100,8 @@ class ShowcasePlugin(plugins.SingletonPlugin, lib_plugins.DefaultDatasetForm):
     def get_helpers(self):
         return {
             'facet_remove_field': showcase_helpers.facet_remove_field,
-            'get_site_statistics': showcase_helpers.get_site_statistics
+            'get_site_statistics': showcase_helpers.get_site_statistics,
+            'get_pkg_showcase_list': get_pkg_showcase_list
         }
 
     # IFacets

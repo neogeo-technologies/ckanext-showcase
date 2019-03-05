@@ -1,0 +1,13 @@
+{% ckan_extends %}
+
+{% block package_info_inner %}
+  {{ super() }}
+  
+  {% set showcase_items = h.get_pkg_showcase_list(pkg.id) %}
+  {% if showcase_items|length > 0 %}
+  <div class="showcase">
+      <h2 class="heading">{{ showcase_items|length }} Réutilisation(s)</h2>
+      <a class="btn btn-primary" href="/dataset/showcases/{{ pkg.name }}">Voir les réutilisations</a>
+  </div>
+  {% endif %}
+{% endblock %}
