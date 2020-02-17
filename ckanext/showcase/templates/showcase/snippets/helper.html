@@ -13,7 +13,7 @@
 			{% endtrans #}
 			Cette section valorise des sites web et des applications numériques utilisatrices
 			de données ouvertes. N'hésitez pas à déclarer vos réutilisations. Pour cela <a href="{{ h.idgotheme_get_url_publier() }}">inscrivez-vous
-			à DataSud</a>, un bouton "Ajouter une réutilisation" apparaitra ensuite sur cette page.
+			à {{ g.site_title }}</a>, un bouton "Ajouter une réutilisation" apparaitra ensuite sur cette page.
 		</p>
 		{% if h.check_access('ckanext_showcase_admin_add') %}
 		<p>
